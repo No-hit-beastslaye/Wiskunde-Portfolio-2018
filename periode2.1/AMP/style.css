@@ -1,0 +1,50 @@
+body
+{
+  background-color: aliceblue;
+  height: 100%;
+}
+
+html
+{
+  height: 100%;
+}
+
+#container
+{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100%;
+}
+
+#myMenu
+{
+  background-color: gray;
+  color: white;
+  grid-column: 1/2;
+}
+
+#myMenu a
+{
+  color: white;
+  text-decoration: none;
+}
+
+#myMenu ol
+{
+  list-style-type: none;
+}
+
+#Periode
+{
+  font-weight: bold;
+}
+
+#myIFrame
+{
+  grid-column: 2/3;
+  width: 100%;
+  height: 100%;
+}
